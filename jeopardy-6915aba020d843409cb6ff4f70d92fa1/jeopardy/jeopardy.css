@@ -1,0 +1,90 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+/* Add your CSS here */
+body {
+  background-color: #115ff4;
+  color: white;
+  font-family: 'Arial';
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#jeopardy {
+  display: none;
+  grid-gap: 5px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+#jeopardy #category {
+  background-color: #060ce9;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+#jeopardy .question {
+  background-color: #28a200;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+#jeopardy .answer {
+  background-color: #8d2ab5;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+button {
+  background-color: #74119c;
+  color: white;
+  padding: 10px;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#loading {
+  text-align: center;
+  font-size: 2em;
+}
+
+table {
+  table-layout: fixed;
+  transform-box: none;
+  width: auto;
+  height: auto;
+}
+
+td {
+  text-align: center;
+  font-size: 15px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+tbody {
+  width: 500px;
+  height: 500px;
+}
+
+th,td {
+  border: 1px solid black;
+  width: 50px;
+  height:50px;
+}
